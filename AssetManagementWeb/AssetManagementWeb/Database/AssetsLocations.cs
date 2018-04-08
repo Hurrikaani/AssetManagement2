@@ -21,5 +21,6 @@ namespace AssetManagementWeb.Database
     
         public virtual AssetLocation AssetLocation { get; set; }
         public virtual Assets Assets { get; set; }
+        public string Code { get; internal set; }
     }
 }
